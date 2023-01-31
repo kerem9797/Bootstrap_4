@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Proje 4</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="extra.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+   <!--Tab Panel-->
+   <div class="container my-4">
+    <div class="row">
+        <div class="col-5">
+            <div class="list-group" id="tlist" role="tablist">
+                <a href="#list-bmw" class="list-group-item list-group-item-action active" id="bmw" data-bs-toggle="list" role="tab" aria-controls="list-bmw">BMW</a>
+                <a href="#list-mercedes" class="list-group-item list-group-item-action" id="mercedes" data-bs-toggle="list" role="tab" aria-controls="list-mercedes">Mercedes</a>
+                <a href="#list-audi" class="list-group-item list-group-item-action" id="audi" data-bs-toggle="list" role="tab" aria-controls="list-audi">Audi</a>
+                <a href="#list-porsche" class="list-group-item list-group-item-action" id="porsche" data-bs-toggle="list" role="tab" aria-controls="list-porsche">Porsche</a>
+                <a href="#list-vw" class="list-group-item list-group-item-action" id="vw" data-bs-toggle="list" role="tab" aria-controls="list-vw">Volkswagen</a>
+                <a href="#list-opel" class="list-group-item list-group-item-action" id="opel" data-bs-toggle="list" role="tab" aria-controls="list-opel">Opel</a>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="tab-content" id="tabContent">
+                <div class="tab-pane fade show active" id="list-bmw" role="tabpanel" aria-labelledby="bmw">E92 M3</div>
+                <div class="tab-pane fade show " id="list-mercedes" role="tabpanel" aria-labelledby="mercedes">C63 AMG</div>
+                <div class="tab-pane fade show " id="list-audi" role="tabpanel" aria-labelledby="audi">R8</div>
+                <div class="tab-pane fade show " id="list-porsche" role="tabpanel" aria-labelledby="porsche">911 Turbo</div>
+                <div class="tab-pane fade show " id="list-vw" role="tabpanel" aria-labelledby="vw">Passat CC</div>
+                <div class="tab-pane fade show " id="list-opel" role="tabpanel" aria-labelledby="opel">Insigna</div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!--Cards-->
+   <div class="container my-4">
+    <div class="row g-2 g-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">BMW</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">E92 M3</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laborum sapiente ad dolorum qui necessitatibus? Aliquid maiores in voluptates eos? In incidunt reiciendis, laborum nesciunt commodi qui dolorum totam tempore.</p>
+                    <a href="#" class="card-link" style="text-decoration: none;">bmwe92m3</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Mercedes</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">C63 AMG</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laborum sapiente ad dolorum qui necessitatibus? Aliquid maiores in voluptates eos? In incidunt reiciendis, laborum nesciunt commodi qui dolorum totam tempore.</p>
+                    <a href="#" class="card-link" style="text-decoration: none;">mercedesc63amg</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Audi</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">R8</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laborum sapiente ad dolorum qui necessitatibus? Aliquid maiores in voluptates eos? In incidunt reiciendis, laborum nesciunt commodi qui dolorum totam tempore.</p>
+                    <a href="#" class="card-link" style="text-decoration: none;">audir8</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Porsche</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">911 Turbo</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laborum sapiente ad dolorum qui necessitatibus? Aliquid maiores in voluptates eos? In incidunt reiciendis, laborum nesciunt commodi qui dolorum totam tempore.</p>
+                    <a href="#" class="card-link" style="text-decoration: none;">porsche911turbo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Volkswagen</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Passat CC</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laborum sapiente ad dolorum qui necessitatibus? Aliquid maiores in voluptates eos? In incidunt reiciendis, laborum nesciunt commodi qui dolorum totam tempore.</p>
+                    <a href="#" class="card-link" style="text-decoration: none;">vwpassatcc</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Opel</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Insignia</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, laborum sapiente ad dolorum qui necessitatibus? Aliquid maiores in voluptates eos? In incidunt reiciendis, laborum nesciunt commodi qui dolorum totam tempore.</p>
+                    <a href="#" class="card-link" style="text-decoration: none;">opelinsigna</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div> <!--container end-->
+
+   <div class="container my-5">
+    <div class="row g-2 g-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100 border border-success bg-light">
+                <div class="card-header text-white text-center bg-secondary">BMW</div>
+                <div class="card-body">
+                    <h5 class="card-subtitle text-muted mb-1">E92 M3</h5>
+                    <img src="images/bmwe92m3.jpg" class="card-img" alt="bmwe92m3">
+                </div>
+                <div class="card-footer text-muted"><a href="#" class="btn btn-secondary" role="button">30.000$</a></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100 border border-success bg-light">
+                <div class="card-header text-white text-center bg-secondary">Mercedes</div>
+                <div class="card-body">
+                    <h5 class="card-subtitle text-muted mb-1">C63 AMG</h5>
+                    <img src="images/mercedesc63amg3.jpg" class="card-img" alt="mercedesc63amg">
+                </div>
+                <div class="card-footer text-muted"><a href="#" class="btn btn-secondary" role="button">40.000$</a></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100 border border-success bg-light">
+                <div class="card-header text-white text-center bg-secondary">Audi</div>
+                <div class="card-body">
+                    <h5 class="card-subtitle text-muted mb-1">R8</h5>
+                    <img src="images/audir8.jpg" class="card-img" alt="audir8">
+                </div>
+                <div class="card-footer text-muted"><a href="#" class="btn btn-secondary" role="button">50.000$</a></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100 border border-success bg-light">
+                <div class="card-header text-white text-center bg-secondary">Porsche</div>
+                <div class="card-body">
+                    <h5 class="card-subtitle text-muted mb-1">911 Turbo</h5>
+                    <img src="images/porsche911turbo3.webp" class="card-img" alt="porsche911turbo">
+                </div>
+                <div class="card-footer text-muted"><a href="#" class="btn btn-secondary" role="button">70.000$</a></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100 border border-success bg-light">
+                <div class="card-header text-white text-center bg-secondary">Volkswagen</div>
+                <div class="card-body">
+                    <h5 class="card-subtitle text-muted mb-1">Passat CC</h5>
+                    <img src="images/vwpassatcc.jpg" class="card-img" alt="vwpassatcc">
+                </div>
+                <div class="card-footer text-muted"><a href="#" class="btn btn-secondary" role="button">15.000$</a></div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card h-100 border border-success bg-light">
+                <div class="card-header text-white text-center bg-secondary">Opel</div>
+                <div class="card-body">
+                    <h5 class="card-subtitle text-muted mb-1">Insignia</h5>
+                    <img src="images/opelinsignia.webp" class="card-img" alt="opelinsignia">
+                </div>
+                <div class="card-footer text-muted"><a href="#" class="btn btn-secondary" role="button">10.000$</a></div>
+            </div>
+        </div>
+    </div>
+   </div> <!--container end-->
+
+   <!--Carousel-->
+   <div class="container my-5">
+    <div class="row">
+        <div class="col-lg-10 m-auto">
+            <div class="carousel slide carousel-fade" id="carsSlide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carsSlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="first slide"></button>
+                    <button type="button" data-bs-target="#carsSlide" data-bs-slide-to="1" aria-label="second slide"></button>
+                    <button type="button" data-bs-target="#carsSlide" data-bs-slide-to="2" aria-label="third slide"></button>
+                    <button type="button" data-bs-target="#carsSlide" data-bs-slide-to="3" aria-label="fourth slide"></button>
+                    <button type="button" data-bs-target="#carsSlide" data-bs-slide-to="4" aria-label="fifth slide"></button>
+                    <button type="button" data-bs-target="#carsSlide" data-bs-slide-to="5" aria-label="sixth slide"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bmwe92m3.jpg" class="d-block w-100" alt="bmw">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>BMW E92 M3</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/mercedesc63amg3.jpg" class="d-block w-100" alt="mercedes">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Mercedes C63 AMG</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/audir8.jpg" class="d-block w-100" alt="audi">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Audi R8</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/porsche911turbo5.jpg" class="d-block w-100" alt="porsche">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Porsche 911 Turbo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/vwpassatcc.jpg" class="d-block w-100" alt="vw">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>VW Passat CC</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/opelinsignia.webp" class="d-block w-100" alt="opel">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Opel Insignia</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carsSlide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">previous</span>
+                </button>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#carsSlide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body> 
+</html>
